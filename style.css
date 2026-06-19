@@ -275,13 +275,59 @@ a {
     border-radius: 100px;
     height: 0.25rem;
 }
-.progress-bar::-webkit-slider-thumb
-{
+
+.progress-bar::-webkit-slider-thumb {
     appearance: none;
     height: 1rem;
     width: 1rem;
     border-radius: 50%;
     background-color: #1bd760;
     margin-top: -6px;
-    
+
 }
+
+.Album-card {
+    padding: 0.75rem;
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.Album-img {
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 0.25rem;
+    object-fit: cover;
+    margin-bottom: 0.2rem;
+}
+
+.song-info {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.song-name {
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.writer-name {
+    opacity: 0.7;
+    font-size: 0.8rem;
+    margin: 0.15rem 0 0 0;
+}
+
+.writer-name:hover {
+    opacity: 1;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.verified-icon
+{
+    color: #1ed760;
+}
+
