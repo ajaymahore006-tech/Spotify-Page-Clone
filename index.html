@@ -16,7 +16,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap"
         rel="stylesheet">
-
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=picture_in_picture_alt" />
 
 </head>
 
@@ -147,9 +148,10 @@
                     <p class="writer-name">SAMBATA</p>
                 </div>
 
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                    class="verified-icon" viewBox="0 0 16 16">
-                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="verified-icon"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
                 </svg>
             </div>
             <div class="player">
@@ -167,7 +169,32 @@
                     <span class="total time">09:99</span>
                 </div>
             </div>
-            <div class="controls">Music Controls</div>
+            <div class="controls">
+                <div class="control-bar-class">
+                    <i class="fa-solid fa-file-pen  control-icon"></i>
+                    <i class="fa-solid fa-tv  control-icon"></i>
+                </div>
+
+                <div class="control-bar-class1">
+                    <button class="volume-button ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor"
+                            class="bi bi-volume-down-fill control-icon-volume" viewBox="0 0 16 16">
+                            <path
+                                d="M9 4a.5.5 0 0 0-.812-.39L5.825 5.5H3.5A.5.5 0 0 0 3 6v4a.5.5 0 0 0 .5.5h2.325l2.363 1.89A.5.5 0 0 0 9 12zm3.025 4a4.5 4.5 0 0 1-1.318 3.182L10 10.475A3.5 3.5 0 0 0 11.025 8 3.5 3.5 0 0 0 10 5.525l.707-.707A4.5 4.5 0 0 1 12.025 8" />
+                        </svg>
+                    </button>
+
+                    <input type="range" min="0" max="100" class=" control-icon volume-range-progress-bar ">
+                </div>
+
+                <div class="control-bar-class">
+                    <span class="material-symbols-outlined  control-icon">
+                        picture_in_picture_alt
+                    </span>
+                    <i class="fa-solid fa-expand  control-icon"></i>
+                </div>
+
+            </div>
         </div>
     </div>
 </body>
