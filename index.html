@@ -156,17 +156,35 @@
             </div>
             <div class="player">
                 <div class="player-controls">
-                    <img src="assets/player_icon1.png" class="player-control-icons">
-                    <img src="assets/player_icon2.png" class="player-control-icons">
-                    <img src="assets/player_icon3.png" class="player-control-icons"
-                        style="opacity: 1; height: 1.75rem;">
-                    <img src="assets/player_icon4.png" class="player-control-icons">
-                    <img src="assets/player_icon5.png" class="player-control-icons">
+                    <div class="block1">
+                        <img src="assets/player_icon1.png" class="player-control-icons">
+                        <img src="assets/player_icon2.png" class="player-control-icons">
+                    </div>
+                    <div class="block2">
+                        <img src="assets/player_icon3.png" class="player-control-icons block2"
+                            style="opacity: 1; height: 1.75rem;">
+                    </div>
+
+                    <div class="block3">
+                        <img src="assets/player_icon4.png" class="player-control-icons">
+                        <img src="assets/player_icon5.png" class="player-control-icons">
+                    </div>
+
                 </div>
                 <div class="playback-bar">
-                    <span class="current time">00:00</span>
-                    <input type="range" min="0" max="100" class="progress-bar" step="1">
-                    <span class="total time">09:99</span>
+
+                    <div class="current-time-container">
+                        <span class="current-time">0:00</span>
+                    </div>
+
+                    <div class="progress-bar-container">
+                        <input type="range" class="progress-bar" min="0" max="100" step="1">
+                    </div>
+
+                    <div class="total-time-container">
+                        <span class="total-time">9:99</span>
+                    </div>
+
                 </div>
             </div>
             <div class="controls">
